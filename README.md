@@ -32,15 +32,16 @@ VIF-BOBE-RRF: Bayesian-optimized Bagged Ensemble with RRF and VIF VIF-RSOBE-RRF:
 Benchmarked against: MLR, GPR, SVR, MLP, DTR, Boosting ensembles 
 
 Evaluation Metrics:
+coefficient of determination (R²)
 Root Mean Squared Error (RMSE) 
 Mean Absolute Error (MAE) 
 
 Total UPDRS Performance: 
-VIF-BOBE-RRF → RMSE = 0.0400, MAE = 0.0169 
-VIF-RSOBE-RRF → RMSE = 0.0462, MAE = 0.0170 
+VIF-BOBE-RRF → R² = 0.97, RMSE = 0.0400, MAE = 0.0169 
+VIF-RSOBE-RRF → R² = 0.97, RMSE = 0.0405, MAE = 0.0169 
 Motor UPDRS Performance: 
-VIF-BOBE-RRF → RMSE = 0.0454, MAE = 0.0190 
-VIF-RSOBE-RRF → RMSE = 0.0468, MAE = 0.0171 
+VIF-BOBE-RRF →  R² = 0.96, RMSE = 0.0454, MAE = 0.0190 
+VIF-RSOBE-RRF →  R² = 0.96, RMSE = 0.0492, MAE = 0.0198
 Interpretability:
 SHAP analysis identifies key predictors such as age, DFA, and test duration 
 Helps understand feature contributions and model decisions 
