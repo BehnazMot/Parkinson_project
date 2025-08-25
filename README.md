@@ -1,5 +1,12 @@
 Parkinson's Disease Severity Prediction Using Hybrid Machine Learning 
 Project Overview: This repository contains code and analysis for predicting Parkinson’s disease (PD) severity using optimized ensemble machine learning models. Parkinson’s disease is a progressive neurological disorder affecting motor and non-motor functions, making early and precise diagnosis critical for effective treatment. This project leverages the UCI Parkinson’s Telemonitoring dataset and focuses on predicting Total UPDRS and Motor UPDRS scores. 
+
+Related Publication: 
+Motamedi, B., & Villányi, B. J. (2025).
+A novel hybrid machine learning approach for early prediction of Parkinson’s disease severity using optimized feature selection and ensemble learning.
+Intelligence-Based Medicine, 100276.
+https://doi.org/10.1016/j.ibmed.2025.100276
+
 Primary Dataset:
 Source: https://doi.org/10.24432/C5ZS3N
 License: Creative Commons Attribution 4.0 International (CC BY 4.0)
